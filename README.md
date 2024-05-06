@@ -34,7 +34,7 @@ Stateful and stateless components:
 	in React 16.8, allow functional components to manage state using the useState and other hook functions.
 Eg: stateless component:
 
-		import React from 'react';
+import React from 'react';
 const StatelessComponent = ({a}) => {
   			return <div>{a}</div>;
 };
@@ -52,8 +52,7 @@ class StatefulComponent extends Component {
       					message: 'Hello, Stateful Component!',
     					};
  				 }
-
- 			 render() {
+ render() {
     				return <div>{this.state.message}</div>;
  				 }
 }
